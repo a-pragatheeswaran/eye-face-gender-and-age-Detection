@@ -18,7 +18,7 @@ This project utilizes OpenCV and YOLOv5 (via CVU) to perform real-time face dete
 ## Setup and Installation
 1. **Clone the repository**:
    ```
-   git clone <repository-url>
+   git clone https://github.com/a-pragatheeswaran/eye-face-gender-and-age-Detection.git
    ```
 2. **Install dependencies**:
    ```
