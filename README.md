@@ -50,7 +50,6 @@ while True:
         print("Failed to grab frame")
         break
 
-    frame = cv2.resize(frame, (1280, 720))  # Resize for consistent processing
     predictions = detect_and_draw(frame)[0]
     if predictions:
         for prediction in predictions:
